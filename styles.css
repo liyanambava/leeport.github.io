@@ -1,19 +1,25 @@
 body {
-    background-color: #f5f5dc; /* Beige background */
-    color: #333; /* Dark text for readability */
-    font-family: Arial, sans-serif;
+    background-color: #f8f5f2; /* Light beige background */
+    color: #3d3d3d; /* Dark gray text for readability */
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 header {
-    background-color: #d2b48c; /* Tan background for header */
+    background-color: #e2d4c5; /* Soft beige background for header */
     padding: 20px;
     text-align: center;
 }
 
+header h1 {
+    margin: 0;
+    color: #5a4d41; /* Dark beige-brown color for header text */
+}
+
 nav {
-    background-color: #deb887; /* Burlywood background for nav */
+    background-color: #d6c3b0; /* Medium beige background for nav */
     padding: 10px;
 }
 
@@ -31,8 +37,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #333; /* Dark text color */
+    color: #3d3d3d; /* Dark gray text color */
     font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #5a4d41; /* Dark beige-brown color on hover */
 }
 
 main {
@@ -41,12 +51,21 @@ main {
 
 section {
     margin-bottom: 20px;
+    background-color: #fffaf3; /* Very light beige for sections */
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #5a4d41; /* Dark beige-brown color for section headers */
 }
 
 footer {
-    background-color: #d2b48c; /* Tan background for footer */
+    background-color: #e2d4c5; /* Soft beige background for footer */
     padding: 10px;
     text-align: center;
+    color: #3d3d3d; /* Dark gray text color */
     position: fixed;
     width: 100%;
     bottom: 0;
